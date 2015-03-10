@@ -11,7 +11,7 @@ with a keyboard instead of controlling graphical user interfaces
 
 Use a browser to open the tutorial on github, located at:
 
-    https://github.com/Caasi67/boot-camps/tree/2015-04-genetics
+    https://github.com/Caasi67/boot-camps/tree/2015-03-genetics
 
 Click on the directory named `shell`.
 
