@@ -739,7 +739,7 @@ gerdal/*4*` and send it into the `tail -n 1` command. The `|`
 character (called pipe) is used for this purpose. Enter the following
 command:
 
-    wc Bert/* gerdal/Data0559 | tail -n 1
+    wc Bert/* gerdal/*4* | tail -n 1
 
 This will print only the total number of lines, characters, and words
 across all of these files. What is happening here? Well, `tail`, like
