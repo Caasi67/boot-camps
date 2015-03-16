@@ -86,8 +86,8 @@ can contain other files or directories.
 Whenever you start up a terminal, you will start in a special
 directory called the *home* directory. Every user has their own home
 directory where they have full access to do whatever they want. In
-this case, the `pwd` command tells us that we are in the `/home/swc`
-directory. This is the home directory for the `swc` user. That is our
+this case, the `pwd` command tells us that we are in the `/mnt/gv0/AD/*username*`
+directory. This is the home directory for the `*username*` user. That is your
 user name. You can always find out your user name by entering the
 command `whoami`.
 
