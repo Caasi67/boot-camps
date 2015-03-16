@@ -222,18 +222,19 @@ hierarchy. The full path tells you where a directory is in that
 hierarchy. Navigate to the home directory. Now, enter the `pwd`
 command and you should see:
 
-    /home/swc
+    /mnt/gv0/AD/*username*
 
 which is the full name of your home directory. This tells you that you
-are in a directory called `swc`, which sits inside a directory called
+are in a directory called `*username`, which sits inside a directory called
 `home` which sits inside the very top directory in the hierarchy. The
 very top of the hierarchy is a directory called `/` which is usually
-referred to as the *root directory*. So, to summarize: `swc` is a
-directory in `home` which is a directory in `/`.
+referred to as the *root directory*. So, to summarize: `*username*` is a
+directory in `AD` which is a directory in `gv0` which is a directory in `mnt` 
+which is a directory in `/`.
 
 Now enter the following command:
 
-    cd /home/swc/boot-camps/shell
+    cd /mnt/gv0/AD/*username*/boot-camps/shell
 
 This jumps to `shell`. Now go back to the home directory. We saw
 earlier that the command:
@@ -242,8 +243,8 @@ earlier that the command:
 
 had the same effect - it took us to the `shell` directory. But,
 instead of specifying the full path
-(`/home/swc/boot-camps/shell`), we specified a *relative path*. In
-other words, we specified the path relative to our current
+(`/mnt/gv0/AD/*username*/boot-camps/shell`), we specified a *relative path*. 
+In other words, we specified the path relative to our current
 directory. A full path always starts with a `/`. A relative path does
 not. You can usually use either a full path or a relative path
 depending on what is most convenient. If we are in the home directory,
