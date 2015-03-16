@@ -487,7 +487,7 @@ this directory. Now, try to run the program by entering:
     hello
 
 You should get an error saying that hello cannot be found. That is
-because the directory `/home/swc/boot-camps/shell` is not in the
+because the directory `/mnt/gv0/AD/*username*/boot-camps/shell/` is not in the
 `PATH`. You can run the `hello` program by entering:
 
     ./hello
@@ -497,7 +497,7 @@ directory. This tells the shell to run the `hello` program which is
 located right here. So, you can run any program by entering the path
 to that program. You can run `hello` equally well by specifying:
 
-    /home/swc/boot-camps/shell/hello
+    /mnt/gv0/AD/*username*/boot-camps/shell/hello
 
 Or by entering:
 
@@ -533,7 +533,7 @@ is where the name comes from, `cat` is short for concatenate).
 
 2.  Without changing directories, (you should still be in `shell`),
     use one short command to print the contents of all of the files in
-    the `/home/swc/boot-camps/shell/data/THOMAS` directory.
+    the `/mnt/gv0/AD/*username*/boot-camps/shell/data/THOMAS` directory.
 
 * * * *
 
@@ -609,7 +609,7 @@ exists.
 Use `>>`, to append the contents of all of the files whose names
 contain the number 4 in the directory:
 
-    /home/swc/boot-camps/shell/data/gerdal
+     /mnt/gv0/AD/*username*/boot-camps/shell/data/gerdal
 
 to the existing `all_data` file. Thus, when you are done `all_data`
 should contain all of the experiment data from Bert and any
