@@ -280,12 +280,12 @@ above your current directory. Thus:
 
     ls ..
 
-prints the contents of the `/home/swc/boot-camps`. You can chain
+prints the contents of the `/mnt/gv0/AD/*username*/boot-camps/`. You can chain
 these together, so:
 
     ls ../../
 
-prints the contents of `/home/swc` which is your home
+prints the contents of `/mnt/gv0/AD/*username*` which is your home
 directory. Finally, the special directory `.` always refers to your
 current directory. So, `ls`, `ls .`, and `ls ././././.` all do the
 same thing, they print the contents of the current directory. This may
@@ -293,7 +293,7 @@ seem like a useless shortcut right now, but we'll see when it is
 needed in a little while.
 
 To summarize, while you are in the `shell` directory, the commands
-`ls ~`, `ls ~/.`, `ls ../../`, and `ls /home/swc` all do exactly the
+`ls ~`, `ls ~/.`, `ls ../../`, and `ls /mnt/gv0/AD/*username*` all do exactly the
 same thing. These shortcuts are not necessary, they are provided for
 your convenience.
 
