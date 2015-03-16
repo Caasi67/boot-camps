@@ -627,7 +627,7 @@ make copies so that the data is backed up.
 Lets copy the file using the `cp` command. The `cp`
 command backs up the file. Navigate to the `data` directory and enter:
 
-    cp all_data all_data_backup
+    cp all_data all_data_backup_*username*
 
 Now `all_data_backup` has been created as a copy of `all_data`. We can
 move files around using the command `mv`. Enter this command:
