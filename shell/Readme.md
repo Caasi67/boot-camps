@@ -632,9 +632,9 @@ command backs up the file. Navigate to the `data` directory and enter:
 Now `all_data_backup` has been created as a copy of `all_data`. We can
 move files around using the command `mv`. Enter this command:
 
-    mv all_data_backup /tmp/
+    mv all_data_backup_*username* /tmp/
 
-This moves `all_data_backup` into the directory `/tmp`. The directory
+This moves `all_data_backup_*username*` into the directory `/tmp`. The directory
 `/tmp` is a special directory that all users can write to. It is a
 temporary place for storing files. Data stored in `/tmp` is
 automatically deleted when the computer shuts down.
@@ -647,7 +647,7 @@ important, let's rename it:
 Now the file name has been changed to all_data_IMPORTANT. Let's delete
 the backup file now:
 
-    rm /tmp/all_data_backup
+    rm /tmp/all_data_backup_*username*
 
 The `mkdir` command is used to make a directory. Just enter `mkdir`
 followed by a space, then the directory name.
@@ -789,7 +789,7 @@ want to create a file which contains the following names:
 
 To do this, we need a program which allows us to create text
 files. There are many such programs, the easiest one which is
-installed on almost all systems is called `nano`. Navigate to `/tmp`
+installed on almost all systems is called `nano`. Navigate to `~`
 and enter the following command:
 
     nano toBeSorted
